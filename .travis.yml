@@ -1,6 +1,8 @@
 language: c++
+arch: 
+    - amd64
+    - arm64
 compiler:
-        - clang
         - gcc
 cache: apt
 addons:
